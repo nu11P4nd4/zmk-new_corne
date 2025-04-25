@@ -23,7 +23,7 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - H
+  - {t: H, h: '$$mdi:apple-keyboard-command$$'}
   - J
   - K
   - L
@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:backspace$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: GLOBE, h: Meh+LEFT WIN}
+  - {t: '$$mdi:keyboard-esc$$', h: Meh+LEFT WIN}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -199,4 +199,7 @@ layers:
 combos:
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
+  l: [QWERTY]
+- p: [40, 41]
+  k: GLOBE
   l: [QWERTY]
