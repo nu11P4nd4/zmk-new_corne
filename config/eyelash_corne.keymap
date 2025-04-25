@@ -60,6 +60,12 @@
             key-positions = <40 41>;
             layers = <0>;
         };
+
+        cmd {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <22 23>;
+            layers = <0>;
+        };
     };
 
     keymap {
@@ -68,10 +74,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E         &kp R         &kp T                                          &mmv MOVE_UP                     &kp Y           &kp U        &kp I                         &kp O    &kp P     &kp GRAVE
-&kp LCTRL       &kp A  &kp S  &kp D         &kp F         &kp G                          &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &mt LEFT_GUI H  &kp J        &kp K                         &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp V         &kp B            &kp K_MUTE                    &mmv MOVE_DOWN                   &kp N           &kp M        &kp COMMA                     &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                              &kp LEFT_ALT  &kp LEFT_GUI  &lt 1 BACKSPACE                                                                 &lt 2 ENTER     &lt 3 SPACE  &mt LS(LA(LC(LEFT_WIN))) ESC
+&kp TAB         &kp Q  &kp W  &kp E         &kp R         &kp T                                          &mmv MOVE_UP                     &kp Y        &kp U        &kp I                         &kp O    &kp P     &kp GRAVE
+&kp LCTRL       &kp A  &kp S  &kp D         &kp F         &kp G                          &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H        &kp J        &kp K                         &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C         &kp V         &kp B            &kp K_MUTE                    &mmv MOVE_DOWN                   &kp N        &kp M        &kp COMMA                     &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                              &kp LEFT_ALT  &kp LEFT_GUI  &lt 1 BACKSPACE                                                                 &lt 2 ENTER  &lt 3 SPACE  &mt LS(LA(LC(LEFT_WIN))) ESC
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -98,15 +104,15 @@
                                     &trans    &trans     &kp SPACE                                                             &kp RET    &trans     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
+            sensor-bindings = <&inc_dec_kp C_BRI_UP C_BRI_DN>;
         };
 
         layer3 {
             display-name = "Fn";
             bindings = <
-&bt BT_CLR  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                                    &mmv MOVE_UP                     &kp F6    &kp F7    &kp F8       &kp F9      &kp F10           &kp F11
-&trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT  &kp DOWN  &kp UP       &kp RIGHT   &kp LG(LS(F4))    &kp F12
-&trans      &trans        &trans        &sys_reset    &bootloader   &studio_unlock  &trans                    &mmv MOVE_DOWN                   &trans    &trans    &bootloader  &sys_reset  &kp LG(NUMBER_1)  &kp PAUSE_BREAK
+&bt BT_CLR  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                                    &mmv MOVE_UP                     &kp F6    &kp F7    &kp F8       &kp F9      &kp F10               &kp F11
+&trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4              &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT  &kp DOWN  &kp UP       &kp RIGHT   &kp LG(LS(NUMBER_4))  &kp F12
+&trans      &trans        &trans        &sys_reset    &bootloader   &studio_unlock  &trans                    &mmv MOVE_DOWN                   &trans    &trans    &bootloader  &sys_reset  &kp LG(NUMBER_1)      &kp PAUSE_BREAK
                                         &trans        &trans        &trans                                                                     &trans    &trans    &trans
             >;
 
