@@ -88,7 +88,7 @@
             bindings = <
 &trans  &kp N1             &kp N2           &kp N3      &kp N4      &kp N5                                      &mmv MOVE_UP                     &kp N6     &kp N7     &kp N8           &kp N9            &kp N0             &kp GRAVE
 &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PREV  &kp C_NEXT  &kp C_PLAY_PAUSE            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp EQUAL  &kp PLUS   &kp KP_MULTIPLY  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
-&trans  &trans             &kp LG(X)        &kp LG(C)   &kp LG(V)   &trans            &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp MINUS  &kp KP_DIVIDE    &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PG_DN
+&trans  &trans             &kp LG(X)        &kp LG(C)   &kp LG(V)   &trans            &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp MINUS  &kp KP_DIVIDE    &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp RIGHT_SHIFT
                                             &trans      &trans      &trans                                                                       &trans     &trans     &trans
             >;
 
