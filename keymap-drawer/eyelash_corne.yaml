@@ -91,7 +91,7 @@ layers:
   - KP DIVIDE
   - '{'
   - '}'
-  - PG DN
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
