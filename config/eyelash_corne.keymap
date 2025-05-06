@@ -91,8 +91,6 @@
 &trans  &kp N6        &kp N7      &kp N8         &kp N9        &kp N0         &trans                    &mmv MOVE_DOWN                   &kp UNDER      &kp MINUS     &kp BSLH      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE
                                   &trans         &trans        &trans                                                                    &trans         &trans        &kp PERIOD
             >;
-
-            sensor-bindings = <&scroll_encoder>;
         };
 
         layer2 {
@@ -104,15 +102,16 @@
             >;
 
             label = "Arrows";
+            sensor-bindings = <&inc_dec_kp C_BRI_UP C_BRI_DEC>;
         };
 
         layer3 {
             display-name = "Fn";
             bindings = <
-&bt BT_CLR  &kp F1        &kp F2        &kp F3         &kp F4        &kp F5                                           &mmv MOVE_UP                     &out OUT_TOG    &trans       &mkp MCLK       &kp UP                &kp F11           &kp F12
-&trans      &kp F6        &kp F7        &kp F8         &kp F9        &kp F10                          &mmv MOVE_LEFT  &mkp RCLK       &mmv MOVE_RIGHT  &trans          &trans       &kp LEFT_ARROW  &kp DOWN              &kp RIGHT         &trans
-&trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4  &rgb_ug RGB_TOG                    &mmv MOVE_DOWN                   &studio_unlock  &bootloader  &none           &kp LS(LG(NUMBER_4))  &kp LG(NUMBER_1)  &trans
-                                        &kp LC(LG(Q))  &trans        &kp LC(UP)                                                                        &soft_off       &trans       &trans
+&kp LG(NUMBER_1)  &kp F1        &kp F2        &kp F3         &kp F4        &kp F5                                           &mmv MOVE_UP                     &out OUT_TOG    &trans       &mkp MCLK       &kp UP    &kp F11    &kp F12
+&trans            &kp F6        &kp F7        &kp F8         &kp F9        &kp F10                          &mmv MOVE_LEFT  &mkp RCLK       &mmv MOVE_RIGHT  &trans          &trans       &kp LEFT_ARROW  &kp DOWN  &kp RIGHT  &trans
+&soft_off         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2   &bt BT_SEL 3  &bt BT_SEL 4  &rgb_ug RGB_TOG                    &mmv MOVE_DOWN                   &studio_unlock  &bootloader  &none           &trans    &trans     &kp LS(LG(NUMBER_4))
+                                              &kp LC(LG(Q))  &trans        &kp LC(UP)                                                                        &bt BT_CLR      &trans       &trans
             >;
 
             sensor-bindings = <&rgb_encoder>;
@@ -122,7 +121,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &kp KP_MULTIPLY  &kp N7        &kp N8  &kp N9  &kp KP_SUBTRACT
 &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &kp KP_DIVIDE    &kp N4        &kp N5  &kp N6  &kp KP_PLUS
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans           &kp N1        &kp N2  &kp N3  &kp RET
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &kp PERIOD       &kp N1        &kp N2  &kp N3  &kp RET
                         &trans  &trans  &trans                                    &trans  &trans           &kp NUMBER_0
             >;
 
