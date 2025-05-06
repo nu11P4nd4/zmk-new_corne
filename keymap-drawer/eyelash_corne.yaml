@@ -161,7 +161,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - F11
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+Gui+4
   - F6
   - F7
   - F8
@@ -189,7 +189,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Sft+Gui+4
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+Gui+Q
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+$$mdi:arrow-up-bold$$
