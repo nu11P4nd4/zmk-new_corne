@@ -28,7 +28,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: '''', h: 'Meh+$$mdi:apple-keyboard-command$$', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -47,7 +47,7 @@ layers:
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:keyboard-return$$', h: Arrows}
-  - {t: '$$mdi:keyboard-space$$', h: 'Gui+Sft+Alt+$$mdi:apple-keyboard-control$$'}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-esc$$', h: Fn}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
