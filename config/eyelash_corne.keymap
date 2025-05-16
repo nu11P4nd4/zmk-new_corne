@@ -99,10 +99,10 @@
 
         layer2 {
             bindings = <
-&kp ESCAPE  &kp N1        &kp N2             &kp N3      &kp N4      &kp N5                              &trans          &kp N6    &kp N7          &kp N8        &kp N9     &kp N0  &trans
-&trans      &kp C_VOL_UP  &kp C_VOLUME_DOWN  &kp K_PREV  &kp K_NEXT  &kp K_PLAY_PAUSE            &trans  &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans  &trans
-&trans      &trans        &kp LG(X)          &kp LG(C)   &kp LG(V)   &trans            &trans            &trans          &trans    &trans          &trans        &trans     &trans  &trans
-                                             &trans      &trans      &trans                                              &trans    &trans          &trans
+&kp ESCAPE  &kp N1             &kp N2           &kp N3      &kp N4      &kp N5                              &trans          &kp N6    &kp N7          &kp N8        &kp N9     &kp N0  &trans
+&trans      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_PREV  &kp K_NEXT  &kp K_PLAY_PAUSE            &trans  &trans  &trans  &kp LEFT  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans  &trans
+&trans      &trans             &kp LG(X)        &kp LG(C)   &kp LG(V)   &trans            &trans            &trans          &trans    &trans          &trans        &trans     &trans  &trans
+                                                &trans      &trans      &trans                                              &trans    &trans          &trans
             >;
 
             label = "Arrows";
