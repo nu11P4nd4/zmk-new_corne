@@ -24,9 +24,8 @@
 
 &soft_off { hold-time-ms = <2000>; };
 
-};
 
-/ {
+{
 
 behaviors {
     td0: td0 {
