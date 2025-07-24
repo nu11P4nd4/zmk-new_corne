@@ -94,10 +94,10 @@
         layer1 {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                            &mmv MOVE_UP                     &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)  &kp LS(LPAR)    &kp LS(RPAR)     &kp DEL
-&trans  &kp N1        &kp N2      &kp N3         &kp N4        &kp N5                   &mmv MOVE_LEFT  &mkp RCLK       &mmv MOVE_RIGHT  &kp EQUAL      &kp LS(PLUS)  &kp LS(STAR)  &kp LBKT        &kp RBKT         &kp SEMICOLON
-&trans  &kp N6        &kp N7      &kp N8         &kp N9        &kp N0         &trans                    &mmv MOVE_DOWN                   &kp UNDER      &kp MINUS     &kp BSLH      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE
-                                  &trans         &trans        &trans                                                                    &trans         &trans        &kp PERIOD
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                            &mmv MOVE_UP                     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp NUMBER_0     &kp DEL
+&trans  &trans        &trans        &trans        &trans        &none                   &mmv MOVE_LEFT  &mkp RCLK       &mmv MOVE_RIGHT  &none         &trans        &trans        &trans          &trans           &kp SEMICOLON
+&trans  &kp N6        &kp N7        &kp N8        &kp N9        &kp N0        &trans                    &mmv MOVE_DOWN                   &kp UNDER     &kp MINUS     &kp BSLH      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE
+                                    &trans        &trans        &trans                                                                   &trans        &trans        &kp PERIOD
             >;
         };
 
