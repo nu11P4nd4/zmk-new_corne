@@ -94,10 +94,10 @@
         layer1 {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                            &mmv MOVE_UP                     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp NUMBER_0     &kp DEL
-&trans  &trans        &trans        &trans        &trans        &none                   &mmv MOVE_LEFT  &mkp RCLK       &mmv MOVE_RIGHT  &none         &trans        &trans        &trans          &trans           &kp SEMICOLON
-&trans  &kp N6        &kp N7        &kp N8        &kp N9        &kp N0        &trans                    &mmv MOVE_DOWN                   &kp UNDER     &kp MINUS     &kp BSLH      &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE
-                                    &trans        &trans        &trans                                                                   &trans        &trans        &kp PERIOD
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                            &mmv MOVE_UP                     &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9            &kp NUMBER_0                  &kp DEL
+&trans  &trans        &trans        &trans        &trans        &none                   &mmv MOVE_LEFT  &mkp RCLK       &mmv MOVE_RIGHT  &kt EQUAL     &mt LCMD PLUS  &none         &mt LCTRL LEFT_BRACKET  &mt LEFT_SHIFT RIGHT_BRACKET  &kp NON_US_BACKSLASH
+&trans  &kp N6        &kp N7        &kp N8        &kp N9        &kp N0        &trans                    &mmv MOVE_DOWN                   &kp UNDER     &kp MINUS      &none         &kp LEFT_BRACE          &kp RIGHT_BRACE               &kp PIPE
+                                    &trans        &trans        &trans                                                                   &trans        &trans         &none
             >;
         };
 
@@ -127,10 +127,10 @@
 
         layer4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &kp KP_MULTIPLY  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS      &none
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &kp KP_DIVIDE    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SUBTRACT  &none
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &kp PERIOD       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none            &kp KP_ENTER
-                        &trans  &trans  &trans                                    &none            &kp COMMA        &kp KP_NUMBER_0
+&trans  &trans  &trans  &trans  &trans  &trans                        &kp C_VOL_UP              &kp KP_MULTIPLY  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_PLUS      &none
+&trans  &trans  &trans  &trans  &trans  &trans            &kp K_PREV  &kp K_PP      &kp K_NEXT  &kp KP_DIVIDE    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_SUBTRACT  &none
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                &kp C_VOL_DN              &kp PERIOD       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none            &kp KP_ENTER
+                        &trans  &trans  &trans                                                  &none            &kp COMMA        &kp KP_NUMBER_0
             >;
 
             label = "10 Key";
