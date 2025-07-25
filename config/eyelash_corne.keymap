@@ -95,7 +95,7 @@
             display-name = "NUMBER";
             bindings = <
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                            &mmv MOVE_UP                     &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9            &kp NUMBER_0                  &kp DEL
-&trans  &trans        &trans        &trans        &trans        &none                   &mmv MOVE_LEFT  &mkp RCLK       &mmv MOVE_RIGHT  &kt EQUAL     &mt LCMD PLUS  &none         &mt LCTRL LEFT_BRACKET  &mt LEFT_SHIFT RIGHT_BRACKET  &kp NON_US_BACKSLASH
+&trans  &trans        &trans        &trans        &trans        &none                   &mmv MOVE_LEFT  &mkp RCLK       &mmv MOVE_RIGHT  &kp EQUAL     &mt LCMD PLUS  &none         &mt LCTRL LEFT_BRACKET  &mt LEFT_SHIFT RIGHT_BRACKET  &kp NON_US_BACKSLASH
 &trans  &kp N6        &kp N7        &kp N8        &kp N9        &kp N0        &trans                    &mmv MOVE_DOWN                   &kp UNDER     &kp MINUS      &none         &kp LEFT_BRACE          &kp RIGHT_BRACE               &kp PIPE
                                     &trans        &trans        &trans                                                                   &trans        &trans         &none
             >;
