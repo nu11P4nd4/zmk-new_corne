@@ -216,9 +216,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - PREV
-  - PP
-  - NEXT
+  - $$mdi:skip-previous$$
+  - PLAY PAUSE
+  - $$mdi:skip-next$$
   - KP DIVIDE
   - KP 4
   - KP 5
