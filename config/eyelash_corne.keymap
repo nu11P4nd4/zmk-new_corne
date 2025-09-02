@@ -82,10 +82,10 @@
         base {
             display-name = "QWERTY";
             bindings = <
-&kp ESC          &kp Q         &kp W        &kp E         &kp R               &kp T                                      &mmv MOVE_UP                     &kp Y        &kp U           &kp I       &kp O        &kp P                      &kp BACKSPACE
-&kp TAB          &mt LSHIFT A  &mt LCTRL S  &mt LALT D    &mt LEFT_GUI F      &lt 4 G                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H        &mt LEFT_GUI J  &mt RALT K  &mt RCTRL L  &mt RIGHT_SHIFT SEMICOLON  &mt LS(LA(LC(LEFT_GUI))) SQT
-&mt GLOBE GRAVE  &kp Z         &kp X        &kp C         &kp V               &kp B        &kp K_MUTE                    &mmv MOVE_DOWN                   &kp N        &kp M           &kp COMMA   &kp DOT      &kp FSLH                   &kp ENTER
-                                            &kp LEFT_ALT  &mt LEFT_GUI SPACE  &lt 1 SPACE                                                                 &lt 2 ENTER  &kp SPACE       &lt 3 DEL
+&kp ESC    &kp Q         &kp W        &kp E         &kp R               &kp T                                      &mmv MOVE_UP                     &kp Y                    &kp U           &kp I           &kp O        &kp P                      &kp BACKSPACE
+&kp TAB    &mt LSHIFT A  &mt LCTRL S  &mt LALT D    &mt LEFT_GUI F      &lt 4 G                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &mt LS(LA(LC(LG(H)))) H  &mt LEFT_GUI J  &mt RALT K      &mt RCTRL L  &mt RIGHT_SHIFT SEMICOLON  &lt 3 SQT
+&kp GLOBE  &kp Z         &kp X        &kp C         &kp V               &kp B        &kp K_MUTE                    &mmv MOVE_DOWN                   &kp N                    &kp M           &kp COMMA       &kp DOT      &kp FSLH                   &kp ENTER
+                                      &kp LEFT_ALT  &mt LEFT_GUI SPACE  &lt 1 SPACE                                                                 &lt 2 ENTER              &kp SPACE       &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -94,10 +94,10 @@
         layer1 {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                            &mmv MOVE_UP                     &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9            &kp NUMBER_0                  &kp DEL
-&trans  &trans        &trans        &trans        &trans        &none                   &mmv MOVE_LEFT  &mkp RCLK       &mmv MOVE_RIGHT  &kp EQUAL     &mt LCMD PLUS  &none         &mt LCTRL LEFT_BRACKET  &mt LEFT_SHIFT RIGHT_BRACKET  &kp BACKSLASH
-&trans  &kp N6        &kp N7        &kp N8        &kp N9        &kp N0        &trans                    &mmv MOVE_DOWN                   &kp UNDER     &kp MINUS      &none         &kp LEFT_BRACE          &kp RIGHT_BRACE               &kp PERIOD
-                                    &trans        &trans        &trans                                                                   &trans        &trans         &none
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                            &mmv MOVE_UP                     &kp NUMBER_6  &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9            &kp NUMBER_0                  &kp DEL
+&trans     &trans        &trans        &trans        &trans        &kp F5                  &mmv MOVE_LEFT  &mkp RCLK       &mmv MOVE_RIGHT  &kp EQUAL     &mt LCMD PLUS  &none         &mt LCTRL LEFT_BRACKET  &mt LEFT_SHIFT RIGHT_BRACKET  &kp BACKSLASH
+&trans     &kp N6        &kp N7        &kp N8        &kp N9        &kp N0        &trans                    &mmv MOVE_DOWN                   &kp UNDER     &kp MINUS      &none         &kp LEFT_BRACE          &kp RIGHT_BRACE               &kp PERIOD
+                                       &trans        &trans        &trans                                                                   &trans        &trans         &none
             >;
         };
 
@@ -109,12 +109,12 @@
                                       &trans        &trans        &trans                                              &trans    &trans          &trans
             >;
 
-            label = "Arrows";
+            label = "FN";
             sensor-bindings = <&inc_dec_kp C_BRI_UP C_BRI_DEC>;
         };
 
         layer3 {
-            display-name = "Fn";
+            display-name = "BT";
             bindings = <
 &kp LG(NUMBER_1)      &none           &none         &none          &none         &none                                            &mmv MOVE_UP                     &out OUT_TOG    &trans       &mkp MCLK       &kp UP    &none      &none
 &kp LS(LG(NUMBER_4))  &kp LEFT_SHIFT  &kp LCTRL     &kp LEFT_ALT   &kp LEFT_GUI  &none                            &mmv MOVE_LEFT  &mkp RCLK       &mmv MOVE_RIGHT  &trans          &trans       &kp LEFT_ARROW  &kp DOWN  &kp RIGHT  &trans
