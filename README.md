@@ -4,10 +4,6 @@
 
 ![corne mx wireless](https://github.com/user-attachments/assets/77fc2228-e4b9-479c-93fc-f2ccdf96a7bd)
 
-![睫毛外设 Corne 的照片](https://ae01.alicdn.com/kf/Sa797fee25edd44248fbfdb0e13d44e00B.jpg)
-
-如果您需要该键盘的 3D 模型，请发送电子邮件至 `380465425@qq.com`。
-
 ## Instructions
 
 1. [Fork this repository](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository).
