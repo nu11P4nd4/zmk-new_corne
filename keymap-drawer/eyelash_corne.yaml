@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td0'
+  - $$mdi:keyboard-tab$$
   - A
   - S
   - D
@@ -43,12 +43,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
-  - LGUI
-  - NUMBER
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - SYMBOL
   - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
+  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
+  - Meh+$$mdi:apple-keyboard-command$$
+  - Fn
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -93,8 +93,8 @@ layers:
   - END
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - INS
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -144,8 +144,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: held}
+  - {t: '$$mdi:keyboard-return$$', type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - '&studio_unlock'
@@ -192,10 +192,10 @@ layers:
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
