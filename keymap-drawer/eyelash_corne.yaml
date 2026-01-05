@@ -15,19 +15,19 @@ layers:
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: Meh+LGUI, h: '$$mdi:keyboard-tab$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: A}
-  - {t: '$$mdi:apple-keyboard-control$$', h: S}
-  - {t: '$$mdi:apple-keyboard-option$$', h: D}
-  - {t: '$$mdi:apple-keyboard-command$$', h: F}
-  - G
+  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: G, h: '4'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - H
-  - {t: RIGHT GUI, h: J}
-  - {t: '$$mdi:apple-keyboard-option$$', h: K}
-  - {t: '$$mdi:apple-keyboard-control$$', h: L}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: ;}
+  - {t: J, h: RIGHT GUI}
+  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
   - {t: '''', s: '"'}
   - GLOBE
   - Z
@@ -46,8 +46,8 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
-  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
-  - Meh+$$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
+  - {t: '$$mdi:keyboard-return$$', h: 'Meh+$$mdi:apple-keyboard-command$$'}
   - Fn
   NUMBER:
   - {t: '`', s: '~'}
@@ -215,7 +215,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
