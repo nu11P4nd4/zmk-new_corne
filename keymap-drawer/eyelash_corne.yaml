@@ -267,3 +267,6 @@ combos:
 - p: [36, 22]
   k: RGB OFF
   l: [Fn]
+- p: [0, 13, 14, 1]
+  k: '&soft_off'
+  l: [Fn]
