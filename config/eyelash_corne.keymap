@@ -97,6 +97,12 @@
             key-positions = <36 22>;
             layers = <3>;
         };
+
+        soff_off {
+            bindings = <&soft_off>;
+            key-positions = <0 13 14 1>;
+            layers = <3>;
+        };
     };
 
     keymap {
